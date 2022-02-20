@@ -51,3 +51,7 @@ To run test, run the following:
 ## Screenshot
 ![screen shot slick README generator](assets/images/screenshot.png?raw=true "slick README generator Screenshot")
 ![screen shot slick README generator2](assets/images/screenshot2.png?raw=true "slick README generator Screenshot2")
+
+## Demo
+Video walk through can be found here:
+-     https://watch.screencastify.com/v/nlsMMDoHwQdwrbqycq4m
