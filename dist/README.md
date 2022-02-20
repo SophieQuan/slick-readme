@@ -1,6 +1,6 @@
 
 # README SLICK GENERATOR
-[![License: MIT] (https://img.shields.io/badge/license-MIT-green)] (https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
 ## Description
 a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package
