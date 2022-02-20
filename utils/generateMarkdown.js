@@ -37,7 +37,7 @@ This repository is licensed under the ${data.license} license.
 ${data.collaborator}
 
 ## Tests
-To run teats, run the following:\n 
+To run test, run the following:\n 
       ${data.test}
 
 ## Questions

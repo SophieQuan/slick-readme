@@ -33,7 +33,7 @@ This repository is licensed under the MIT license.
 n/a
 
 ## Tests
-To run teats, run the following:
+To run test, run the following:
  
       npm run test
 
