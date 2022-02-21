@@ -43,15 +43,13 @@ const promptQuestions = () => {
                 type: 'list',
                 name: 'license',
                 message: 'Choose a license for your repository',
-                choices: ['MIT', 'Apache 2.0', 'GPLv3', 'MPL 2.0', 'ISC', 'None of above']
+                choices: ['MIT', 'Apache 2.0', 'GPLv3', 'MPL 2.0', 'ISC']
             },
             {
                 type: 'input',
                 name: 'collaborator',
                 message: 'Enter name of your collaborator',
-                validate: collaboratorName => {
-                    return collaboratorName ? true : ("", false);
-                }
+                default: ""
             },
             {
                 type: 'input',
@@ -66,7 +64,7 @@ const promptQuestions = () => {
                 name: 'test',
                 message: 'Please enter testing instructions',
                 validate: testInput => {
-                    return testInput ? true : ("", false);
+                    return testInput ? true : (console.log("Please enter testing instructions!"), false);
                 }
             },
             {
@@ -81,8 +79,8 @@ const promptQuestions = () => {
                 type: 'input',
                 name: 'email',
                 message: 'What is your email address? (Required)',
-                validate: githubName => {
-                    return githubName ? true : (console.log('Please enter a valid email address'), false);
+                validate: emailInput => {
+                    return emailInput ? true : (console.log('Please enter a valid email address'), false);
                 }
             },
         ]);
