@@ -9,8 +9,6 @@ const licenseBadgeLinks = {
     "Mozilla Public License 2.0": "[![License: Mozilla Public License 2.0](https://img.shields.io/badge/license-MIT-brightgreen)](https://opensource.org/licenses/MPL-2.0)",
 
     "ISC": "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
-
-    "Nobe of above": ""
 }
 
 module.exports = licenseBadgeLinks;
